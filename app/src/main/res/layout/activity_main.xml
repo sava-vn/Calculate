@@ -16,6 +16,7 @@
             android:inputType="textImeMultiLine"
             android:id="@+id/editText"
             android:layout_width="match_parent"
+            android:hint="Nhập vào phép tính"
             android:layout_height="match_parent"
             android:textSize="30sp" />
     </LinearLayout>
@@ -26,13 +27,13 @@
         android:layout_weight="2">
 
         <TextView
-            android:textColor="@color/whiteNumber"
-            android:background="@color/xanh"
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textAlignment="viewEnd"
+            android:background="@color/xanh"
             android:inputType="textImeMultiLine"
+            android:textAlignment="viewEnd"
+            android:textColor="@color/whiteNumber"
             android:textSize="50sp" />
     </LinearLayout>
 
